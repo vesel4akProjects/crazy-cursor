@@ -10,7 +10,7 @@ class Programm:
         super(Programm,self).__init__()
         #call method
         self.crazy_cursor()
-    #create method
+    #create main method
     def crazy_cursor(self):
         while True:
             x_coord = randint(1, 1920)
